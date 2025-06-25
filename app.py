@@ -4,7 +4,7 @@ import joblib  # atau gunakan pickle sesuai model Anda
 
 # Load model yang sudah dilatih sebelumnya
 # Pastikan file model.pkl ini ada di repo GitHub Anda
-model = joblib.load("model.pkl")  # Ganti dengan nama file model Anda
+model = joblib.load("regresi.pkl")  # Ganti dengan nama file model Anda
 
 # Judul Aplikasi
 st.title("Prediksi Income Berdasarkan Usia dan Pengalaman")
